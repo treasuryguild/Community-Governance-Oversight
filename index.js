@@ -38,20 +38,11 @@ Description: ${description}`
     function githubQueryLink(pool) {
       var answer = "";
       switch(pool) {
-        case 'Power Up Catalyst Circle':
-          answer = "Fund6/Power-Up-The-Catalyst-Circle/";
+        case 'Community Governance Oversight':
+          answer = "Fund7/Community-Governance-Oversight/";
           break;
-        case 'CC Admin Team Scope Expansion':
-          answer = "Fund7/CC-Admin-Team-Scope-Expantion/";
-          break;
-        case 'CCv3 Sustaining The Circle':
-          answer = "Fund7/CCv3-Sustaining-the-circle/";
-          break;
-        case 'CC Funding Mechanism':
-          answer = "Fund7/CC-Funding-Mechanism/";
-          break;
-        case 'CC Treasury Management':
-          answer = "Fund7/CC-Treasury-Management/";
+        case 'Catalyst Audit Circle':
+          answer = "Fund7/Catalyst-Audit-Circle/";
           break;
         default:
           answer = "";
@@ -63,26 +54,23 @@ Description: ${description}`
     function githubQueryLink2(budgetB) {
       var answer = "";
       switch(budgetB) {
-        case 'Remuneration (3 UBI)':
-          answer = "Remuneration-3xUBI/";
+        case 'Remuneration':
+          answer = "Remuneration/";
           break;
-        case 'Subscriptions & webhosting':
-          answer = "Subscriptions-&-webhosting/";
+        case 'Comm/Org Tools':
+          answer = "Comm-Org-Tools/";
           break;
-        case 'Event Incentives & C4C Veritree contribution':
-          answer = "Event-Incentives-&-C4C-Veritree-contribution/";
+        case 'Surveys':
+          answer = "Surveys/";
           break;
-        case 'Seed fund for C4C determined project':
-          answer = "Seed-fund-for-C4C-determined-project/";
+        case 'Retrospectives':
+          answer = "Retrospectives/";
           break;
-        case 'Weekly meeting':
-          answer = "Weekly-meeting/";
+        case 'Reports':
+          answer = "Reports/";
           break;
-        case 'Monthly event':
-          answer = "Monthly-event/";
-          break;
-        case 'Event Remuneration':
-          answer = "Event-Remuneration/";
+        case 'Proposal':
+          answer = "Proposal/";
           break;
         default:
           answer = "";
@@ -91,6 +79,6 @@ Description: ${description}`
       return answer;
     }
     //Open in a new tab
-  window.open("https://github.com/treasuryguild/Cardano4Climate/new/main/content/en/blog/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
+  window.open("https://github.com/treasuryguild/Community-Governance-Oversight/new/main/content/en/blog/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
     
   }
