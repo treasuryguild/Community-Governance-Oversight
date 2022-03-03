@@ -1,6 +1,6 @@
 # Community Governance Oversight
 
-Community Governance Oversight funded proposals
+Fund 7 funded proposals
 
 - [Community Governance Oversight](https://cardano.ideascale.com/c/idea/383517)
 - [Catalyst Audit Circle](https://cardano.ideascale.com/c/idea/381354)
