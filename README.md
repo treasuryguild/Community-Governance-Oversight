@@ -1,4 +1,4 @@
-# Community-Governance-Oversight
+# Community Governance Oversight
 
 Community Governance Oversight funded proposals
 
