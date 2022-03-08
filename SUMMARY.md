@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Community-Governance-Oversight](README.md)
+* [Community Governance](README.md)
+  * [Fund 7](readme/fund-7.md)
