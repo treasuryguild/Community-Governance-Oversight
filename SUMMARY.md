@@ -2,4 +2,6 @@
 
 * [Community Governance](README.md)
 * [Balances](balances.md)
-* [Transactions](transactions.md)
+* [Transactions](transactions/README.md)
+  * [Community Governance Oversight](transactions/community-governance-oversight.md)
+  * [Catalyst Audit Circle](transactions/catalyst-audit-circle.md)
