@@ -49,7 +49,7 @@ body:
       label: Budget Item
       description: Please select the budget item.
       options:
-        - Meeting attendance
+        - Meetings
         - Comm/Org Tools
         - Surveys
         - Retrospectives
