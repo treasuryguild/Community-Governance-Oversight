@@ -55,6 +55,7 @@ body:
         - Retrospectives
         - Reports
         - Proposal
+        - Other
     validations:
       required: true
   - type: textarea
