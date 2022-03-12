@@ -4,4 +4,4 @@ description: https://quality-assurance-dao.gitbook.io/community-governance-overs
 
 # Community Governance
 
-Without oversight we risk stagnation and we lack accountability in our governance
+Welcome to the Community Governance Treasury GitBook. Here you will find the current state of Community Governance related funded proposals. You can view transactions, balances and more to come...
