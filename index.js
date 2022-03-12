@@ -54,8 +54,8 @@ Description: ${description}`
     function githubQueryLink2(budgetB) {
       var answer = "";
       switch(budgetB) {
-        case 'Remuneration':
-          answer = "Remuneration/";
+        case 'Meetings':
+          answer = "Meetings/";
           break;
         case 'Comm/Org Tools':
           answer = "Comm-Org-Tools/";
