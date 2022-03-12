@@ -72,6 +72,9 @@ Description: ${description}`
         case 'Proposal':
           answer = "Proposal/";
           break;
+        case 'Other':
+          answer = "Other/";
+          break;         
         default:
           answer = "";
           break;
