@@ -3,7 +3,7 @@ description: Fill in this form when you make a transaction (Complete form 1 and 
 title: "CC Treasury Transaction Issue Form"
 labels: ["Transactions"]
 assignees:
-  - Andre-Diamond
+  - Miroslav-Rajh
 body:
   - type: markdown
     attributes:
