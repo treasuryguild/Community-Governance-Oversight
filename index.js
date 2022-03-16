@@ -73,6 +73,9 @@ function getValue(name){
     function githubQueryLink2(budgetB) {
       var answer = "";
       switch(budgetB) {
+        case 'Incoming IOG':
+          answer = "Incoming-IOG/";
+          break;
         case 'Meetings':
           answer = "Meetings/";
           break;
@@ -101,6 +104,6 @@ function getValue(name){
       return answer;
     }
     //Open in a new tab
-  window.open("https://github.com/treasuryguild/Community-Governance-Oversight/new/main/content/en/blog/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
+  window.open("https://github.com/treasuryguild/Community-Governance-Oversight/new/main/Transactions/" + githubQueryLink(pool) + githubQueryLink2(budgetB) + "new?value=" + encodedFileText +"&filename=" + filename);
     
   }
