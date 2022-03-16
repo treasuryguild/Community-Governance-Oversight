@@ -18,17 +18,36 @@ function getValue(name){
     
     //Generate a string mimicing the file structure
     //Indentation is important here
-    let fileText = `---
-Date: ${new Date().toUTCString()}
----
-
-##### ${name} ${ada} ADA
-
-| Date      | Name | Funded Proposal | Budget Item | ADA | Transaction|
-| :---        | :---  | :--- | :--- | :--- | :--- |
-| ${new Date().toUTCString()} | ${name} | ${pool} | ${budgetB} | ${ada} | [link](https://cardanoscan.io/transaction/${txid})|
-
-Description: ${description}`
+    function ideascaleLink(pool) {
+      var iLink = "";
+      switch(pool) {
+        case 'Community Governance Oversight':
+          iLink = "https://cardano.ideascale.com/c/idea/383517";
+          break;
+        case 'Catalyst Audit Circle':
+          iLink = "https://cardano.ideascale.com/c/idea/381354";
+          break;
+        default:
+          iLink = "";
+          break;
+      }
+      return iLink;
+    }    
+    
+    //Generate a string mimicing the file structure
+    //Indentation is important here
+    let fileText = `{
+  "label" : "${new Date().getTime().toString()}",
+  "date": "${new Date().toUTCString()}",
+  "project": "Cardano4Climate",
+  "pool": "${pool}",
+  "Ideascale": "${ideascaleLink(pool)}"
+  "budget": "${budgetB}",
+  "ada": "${ada}",
+  "name": "${name}",
+  "description": "${description}"
+}
+`
     
     //Encode string to URI format
     const encodedFileText = encodeURIComponent(fileText)
