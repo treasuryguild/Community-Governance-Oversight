@@ -41,7 +41,7 @@ function getValue(name){
   "date": "${new Date().toUTCString()}",
   "project": "Community Governance Oversight",
   "pool": "${pool}",
-  "Ideascale": "${ideascaleLink(pool)}"
+  "Ideascale": "${ideascaleLink(pool)}",
   "budget": "${budgetB}",
   "ada": ${ada},
   "name": "${name}",
