@@ -13,7 +13,7 @@ function getValue(name){
     const pool = getValue('pool')
     
     //generate a filename
-    const filename = new Date().getTime().toString() + '-' + name.replace(/\s/g, '-') + ".md"
+    const filename = new Date().getTime().toString() + '-' + name.replace(/\s/g, '-') + ".json"
     
     
     //Generate a string mimicing the file structure
