@@ -37,13 +37,13 @@ function getValue(name){
     //Generate a string mimicing the file structure
     //Indentation is important here
     let fileText = `{
-  "id" : "${new Date().getTime().toString()}",
+  "id" : ${new Date().getTime().toString()},
   "date": "${new Date().toUTCString()}",
   "project": "Community Governance Oversight",
   "pool": "${pool}",
   "Ideascale": "${ideascaleLink(pool)}"
   "budget": "${budgetB}",
-  "ada": "${ada}",
+  "ada": ${ada},
   "name": "${name}",
   "description": "${description}"
 }
