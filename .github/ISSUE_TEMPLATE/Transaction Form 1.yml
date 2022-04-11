@@ -56,7 +56,7 @@ body:
         - Retrospectives
         - Reports
         - Proposal
-        - Other
+        - Town Hall Slides
     validations:
       required: true
   - type: textarea
