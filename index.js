@@ -94,8 +94,8 @@ function getValue(name){
         case 'Proposal':
           answer = "Proposal/";
           break;
-        case 'Other':
-          answer = "Other/";
+        case 'Town Hall Slides':
+          answer = "Town-Hall-Slides/";
           break;         
         default:
           answer = "";
