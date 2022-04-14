@@ -57,6 +57,7 @@ body:
         - Reports
         - Proposal
         - Town Hall Slides
+        - Meeting Minutes
     validations:
       required: true
   - type: textarea
