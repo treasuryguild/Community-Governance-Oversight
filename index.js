@@ -96,7 +96,10 @@ function getValue(name){
           break;
         case 'Town Hall Slides':
           answer = "Town-Hall-Slides/";
-          break;         
+          break; 
+        case 'Meeting Minutes':
+          answer = "Meeting-Minutes/";
+          break;        
         default:
           answer = "";
           break;
