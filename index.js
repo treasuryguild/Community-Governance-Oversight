@@ -101,7 +101,10 @@ function getValue(name){
           break; 
         case 'Meeting Minutes':
           answer = "Meeting-Minutes/";
-          break;        
+          break;
+        case 'Other':
+          answer = "Other/";
+          break;         
         default:
           answer = "";
           break;
