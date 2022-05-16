@@ -7,3 +7,4 @@
     * [Community Governance Oversight](transactions/fund-7/community-governance-oversight.md)
     * [Catalyst Audit Circle](transactions/fund-7/catalyst-audit-circle.md)
   * [Fund 8](transactions/fund-8.md)
+  * [Community Governance Oversight](transactions/community-governance-oversight.md)
