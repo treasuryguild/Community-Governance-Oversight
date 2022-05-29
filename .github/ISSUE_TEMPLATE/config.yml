@@ -4,7 +4,7 @@ contact_links:
     url: https://treasuryguild.github.io/Community-Governance-Oversight/
     about: Fill in this form when you make a transaction (Complete form 1 and 2)
   - name: Transaction Form 2
-    url: https://treasuryguild.github.io/Community-Governance-Oversight/
+    url: https://github.com/treasuryguild/Community-Governance-Oversight/issues/new
     about: Fill in this form after you made a transaction (Complete form 1 and 2)
   - name: Transaction Form Fund 8
     url: https://treasuryguild.github.io/treasury-v3/
