@@ -8,4 +8,3 @@
     * [Catalyst Audit Circle](transactions/fund-7/catalyst-audit-circle.md)
   * [Fund 8](transactions/fund-8/README.md)
     * [Community Governance Oversight](transactions/fund-8/community-governance-oversight.md)
-    * [Automate, Educate, Communicate](transactions/fund-8/automate-educate-communicate.md)
