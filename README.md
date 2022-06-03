@@ -9,7 +9,7 @@ Fund 7 funded proposals (Ideascale links)
 
 Fund 8 funded proposals (Ideascale links)
 
-[Community Governance Oversight](https://cardano.ideascale.com/c/idea/398225)
+- [Community Governance Oversight](https://cardano.ideascale.com/c/idea/398225)
 
 
 
