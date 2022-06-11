@@ -4,7 +4,7 @@ description: Here you will find all balances of Funded Proposals
 
 # Balances
 
-## Community Governance Oversight
+## Community Governance Oversight F7
 
 Click **Run Pen** to View current balance of Funded Proposal "**Community Governance Oversight**"
 
@@ -12,7 +12,7 @@ Click **Run Pen** to View current balance of Funded Proposal "**Community Govern
 ****[**Click here to view transactions**](transactions/fund-7/community-governance-oversight.md)****
 {% endembed %}
 
-## Catalyst Audit Circle
+## Catalyst Audit Circle F7
 
 Click **Run Pen** to View current balance of Funded Proposal "**Catalyst Audit Circle**"
 
